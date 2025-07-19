@@ -1,0 +1,61 @@
+@charset 'UTF-8';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 95vh;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 2rem 2rem;
+}
+.header {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 30px;
+}
+.h-txt {
+  text-align: right;
+}
+.todo-text {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+.todo-text input {
+  flex: 4;
+}
+.innerBox {
+  width: 100%;
+  height: 70%;
+  background-color:  rgb(235, 235, 235);
+  border-radius: 8px;
+  margin: 5px auto;
+  padding: 1rem 1rem;
+  overflow-y: auto;
+}
+.innerBoxList {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 10px;
+}
+.list-check {
+  flex: 1;
+}
+.list-text {
+  flex: 10;
+  padding: 11px 0 0 0;
+}
+.list-button {
+  display: flex;
+  gap: 5px;
+}
