@@ -1,0 +1,17 @@
+@charset 'UTF-8';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contents {
+  text-align: center;
+  border-radius: 7px;
+  border: 1px solid rgb(189, 189, 189);
+}
+
+.contents h1 {
+  margin: 50px 0;
+}

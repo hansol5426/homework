@@ -1,0 +1,49 @@
+@charset 'UFT-8';
+
+.book-box {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 1rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.book-box input {
+  flex: 6;
+  min-width: 100px;
+  margin-left: 50px;
+}
+
+.book-list-box {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-box {
+  flex: 4;
+  min-width: 100px;
+  display: flex;
+  gap: 5px;
+  height: 100%;
+}
+
+.book-all-list {
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ccc;
+  list-style: none;
+  width: 90%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 15px 2px rgba(182, 181, 181, 0.733);
+  overflow-y: auto;
+}
+
+.book-item {
+  height: 50px;
+}

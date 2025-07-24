@@ -1,0 +1,28 @@
+@charset 'UFT-8';
+
+.rental-book {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.book-list {
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  list-style: none;
+  width: 90%;
+  height: 250px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 15px 2px rgba(182, 181, 181, 0.733);
+  overflow-y: auto;
+}
+
+.book-list span {
+  margin: 0 auto;
+  height: 250px;
+  line-height: 250px;
+  font-size: 20px;
+  font-weight: bold;
+}
