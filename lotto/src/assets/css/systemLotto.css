@@ -1,0 +1,28 @@
+@charset 'UTF-8';
+
+.ball-item {
+  display: flex;
+  gap: 10px;
+  height: 100px;
+  line-height: 100px;
+  align-items: center;  
+}
+
+.ball {
+  width: 10%;
+  height: 90px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 90px;
+  background-color: white;
+}
+
+.lotto-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  font-weight: bold;
+}

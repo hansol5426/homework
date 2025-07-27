@@ -1,0 +1,8 @@
+@charset 'UTF-8';
+
+.btn-box {
+  margin: 10px;
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
