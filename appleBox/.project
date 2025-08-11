@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-<<<<<<<< HEAD:skillTrees/.project
-	<name>skillTrees</name>
-========
-	<name>Box</name>
->>>>>>>> 470c0d634fca0ead4fe96cd3282eb0393ec8b198:Box/.project
+	<name>appleBox</name>
 	<comment></comment>
 	<projects>
 	</projects>
